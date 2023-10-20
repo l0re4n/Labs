@@ -1,5 +1,7 @@
 #include <iostream>
 
+using namespace std;
+
 bool canReachN(int current, int N) {
     if (current == N) {
         return true;
@@ -16,9 +18,9 @@ int main() {
     std::cin >> N;
 
     if (canReachN(1, N)) {
-        std::cout << "YES" << std::endl;
+        std::cout << "YES" << endl;
     } else {
-        std::cout << "NO" << std::endl;
+        std::cout << "NO" << endl;
     }
     return 0;
 }
